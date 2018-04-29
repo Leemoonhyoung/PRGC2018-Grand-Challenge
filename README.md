@@ -19,7 +19,7 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 
 ## Example code
-* plotData.py 
+* loadData.py - Shows you how to load a file
 
 ## Installing required packages 
 
