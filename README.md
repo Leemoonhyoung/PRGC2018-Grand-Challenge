@@ -24,9 +24,6 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 * [S1_Data.csv](S1_Data.csv)
 * link: https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv
 
-### Rating level emotion data 
-* [S2_Data.csv](S2_Data.csv)
-* link: https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129474/S2_Data.csv
 
 ## Example code
 * loadData.py - Shows you how to load a file
