@@ -1,4 +1,4 @@
-# PINES
+## PINES
 
 Picture Induced Negative Emotion Signature (PINES)
 
@@ -19,4 +19,32 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 
 ## Example code
+* plotData.py 
 
+## Installing required packages 
+
+### Let's install  `nibabel` in a new virtual environment
+
+1. Create a virtual environment
+    ```
+    python3 -m venv ~/ni
+    ```
+
+2. Activate the virtual envrinonment
+    ```
+    source ~/ni/bin/activate
+    ```
+
+3. Install Jupyter
+    ```
+    pip3 install jupyter
+    ```
+    
+4. Install `nibabel` in it
+    ```
+    pip3 install nibabel
+    ```
+
+Once you're done, you can activate the environment (Step 2) and use it.
+
+See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
