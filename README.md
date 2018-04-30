@@ -31,6 +31,9 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 ## Installing required packages 
 
+In order to read the provided fMRI images, you need `nibabel` package. 
+Here is how you can install it.
+
 ### Let's install  `nibabel` in a new virtual environment
 
 1. Create a virtual environment
