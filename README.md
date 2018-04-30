@@ -27,7 +27,7 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 
 
 ## Example code
-* loadData.py - Shows you how to load a file
+* [loadData.ipynb](loadData.ipynb) - Shows you how to load the dataset
 
 ## Installing required packages 
 
