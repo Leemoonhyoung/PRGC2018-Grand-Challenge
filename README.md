@@ -34,6 +34,9 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 In order to read the provided fMRI images, you need `nibabel` package. 
 Here is how you can install it.
 
+See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
+
+
 ### Let's install  `nibabel` in a new virtual environment
 
 1. Create a virtual environment
@@ -56,6 +59,4 @@ Here is how you can install it.
     pip3 install nibabel
     ```
 
-Once you're done, you can activate the environment (Step 2) and use it.
-
-See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
+Once you're done, you can activate the environment (as shown in Step 2) and use it.
