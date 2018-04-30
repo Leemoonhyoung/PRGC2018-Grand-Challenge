@@ -1,20 +1,17 @@
-## PINES
-
-Picture Induced Negative Emotion Signature (PINES).
 
 ## PRGC 2018
 The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subject's emotional state ($Y$) from fMRI image ($X$) of his or her brain.
 In the PINES dataset below, 183 subjects' fMRI images ($X$) and emotional states($Y$) are provided.
 Build a model to predict a subject's emotional state ($Y$) from an fMRI image ($X$).
 
-## Refence
+## Refences
 
 * Introduction: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002179
 
 * Main article: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180
 
 
-## Dataset
+## Picture Induced Negative Emotion Signature (PINES) Dataset
 
 ### 1. fMRI data
 https://neurovault.org/collections/503/
