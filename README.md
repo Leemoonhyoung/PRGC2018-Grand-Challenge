@@ -26,8 +26,9 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 * Neutral photographs (Pictures: 5720, 5800, 7000, 7006, 7010, 7040, 7060, 7090, 7100,7130, 7150, 7217, 7490, 7500, 9210) depicted inanimate objects (10 photographs) or neutral scenes (5 photographs).
 
 ### 2. emotion level data 
-* [S1_Data.csv](S1_Data.csv)
-* link: https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv
+* [S1_Data.csv](S1_Data.csv) from https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv
+* Subject's reponses are stored in column `Rating`.
+* Use `Holdout` column to divide the data into training (`Trainig`) and test (`Test`) datasets. 
 
 
 ## Example code
