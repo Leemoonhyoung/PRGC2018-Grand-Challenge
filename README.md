@@ -5,10 +5,8 @@ In the PINES dataset below, 183 subjects' fMRI images ($X$) and emotional states
 Build a model to predict a subject's emotional state ($Y$) from an fMRI image ($X$).
 
 ## Refences
-
-* Introduction: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002179
-
-* Main article: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180
+* See [here](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002179) for a breif introduction about this study.
+* For more detail, read the Method section of the [original article](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180)
 
 
 ## Picture Induced Negative Emotion Signature (PINES) Dataset
