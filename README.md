@@ -59,4 +59,4 @@ See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
     pip3 install nibabel
     ```
 
-Once you're done, you can activate the environment (as shown in Step 2) and use it.
+Once you're done, you can activate the environment (as shown in Step 2) and use it to load `*.nii.gz` files.
