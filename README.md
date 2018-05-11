@@ -29,7 +29,7 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 ## Example code
 * [loadData.ipynb](loadData.ipynb) - Shows you how to load the dataset
 
-## Download data (Contribution from Wonjin)
+## Download data (Contribution from [Wonjin](https://github.com/Jangwonjin))
 You can download all the data using [downloadData.py](downloadData.py). 
 
 ## Installing required packages 
