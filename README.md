@@ -1,15 +1,15 @@
-## PINES
 
-Picture Induced Negative Emotion Signature (PINES)
+## PRGC 2018
+The goal of Pattern Recognition Grand Challenge (PRGC) 2018 is to predict a subject's emotional state from the fMRI image of his or her brain.
+In the PINES dataset below, 183 subjects' fMRI images and emotional states are provided.
+Build a model to predict a subject's emotional state (Y) from an fMRI image (X).
 
-## Refence
-
-* Introduction: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002179
-
-* Main article: http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180
+## Refences
+* See [here](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002179) for a breif introduction about this study.
+* For more detail, read the Method section of the [original article](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002180)
 
 
-## Dataset
+## Picture Induced Negative Emotion Signature (PINES) Dataset
 
 ### 1. fMRI data
 https://neurovault.org/collections/503/
@@ -21,14 +21,21 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
 * Neutral photographs (Pictures: 5720, 5800, 7000, 7006, 7010, 7040, 7060, 7090, 7100,7130, 7150, 7217, 7490, 7500, 9210) depicted inanimate objects (10 photographs) or neutral scenes (5 photographs).
 
 ### 2. emotion level data 
-* [S1_Data.csv](S1_Data.csv)
-* link: https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv
+* [S1_Data.csv](S1_Data.csv) from https://s3-eu-west-1.amazonaws.com/pstorage-plos-3567654/2129473/S1_Data.csv
+* Subject's reponses are stored in column `Rating`.
+* Use `Holdout` column to divide the data into training (`Trainig`) and test (`Test`) datasets. 
 
 
 ## Example code
-* loadData.py - Shows you how to load a file
+* [loadData.ipynb](loadData.ipynb) - Shows you how to load the dataset
 
 ## Installing required packages 
+
+In order to read the provided fMRI images, you need `nibabel` package. 
+Here is how you can install it.
+
+See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
+
 
 ### Let's install  `nibabel` in a new virtual environment
 
@@ -52,6 +59,4 @@ The details of the experiment can be seen in Gianaros et al., 2014 (doi:10.1016/
     pip3 install nibabel
     ```
 
-Once you're done, you can activate the environment (Step 2) and use it.
-
-See http://nipy.org/nibabel/gettingstarted.html for more detals about nibabel.
+Once you're done, you can activate the environment (as shown in Step 2) and use it to load `*.nii.gz` files.
